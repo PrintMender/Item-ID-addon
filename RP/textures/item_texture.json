@@ -1,0 +1,9 @@
+{
+    "resource_pack_name": "item_id_addon",
+    "texture_data":{
+        "icon_setting" :{
+            "textures": "textures/ui/icon_setting"
+        }
+    },
+    "texture_name": "atlas.items"
+}

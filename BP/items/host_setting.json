@@ -1,0 +1,13 @@
+{
+    "format_version": "1.16.100",
+    "minecraft:item": {
+        "description": {
+            "identifier": "item_id:setting"
+        },
+        "components": {
+            "minecraft:icon": {
+                "texture": "icon_setting"
+            }
+        }
+    }
+}

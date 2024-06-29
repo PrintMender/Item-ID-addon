@@ -1,0 +1,32 @@
+{
+	"format_version": 2,
+	"header": {
+		"name": "アイテムIDアドオン",
+		"description": "アイテムのIDをアイテムの説明(lore)に表示します",
+		"uuid": "d71b31ba-4b00-432b-ad9b-b140769c0bf1",
+		"platform_locked": false,
+		"version": [ 1, 0, 0 ],
+		"min_engine_version": [ 1, 20, 30 ],
+		"pack_scope": "world"
+	},
+	"modules": [
+		{
+		  "description": "JavaScript module code",
+		  "language": "javascript",
+		  "type": "script",
+		  "uuid": "a7fff696-e906-417d-bc20-c6702ee614d8",
+		  "version": [1, 0, 0],
+		  "entry": "scripts/index.js"
+		}
+	  ],
+	  "dependencies": [
+		{
+			"uuid": "de60cc94-3969-4d0c-b2e2-b87e6da660d3",
+			"version": [1, 0, 0]
+		},
+		{
+			"module_name": "@minecraft/server",
+			"version": "1.12.0-beta"
+		}
+	]
+}

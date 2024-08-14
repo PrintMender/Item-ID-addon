@@ -17,6 +17,11 @@
 		  "uuid": "a7fff696-e906-417d-bc20-c6702ee614d8",
 		  "version": [1, 0, 0],
 		  "entry": "scripts/index.js"
+		},
+		{
+			"type": "data",
+			"uuid": "1ee0e0d2-39de-4da4-9515-96f3330d2b5a",
+			"version": [1, 0, 0]
 		}
 	  ],
 	  "dependencies": [
@@ -26,7 +31,7 @@
 		},
 		{
 			"module_name": "@minecraft/server",
-			"version": "1.12.0-beta"
+			"version": "2.0.0-alpha"
 		}
 	]
 }

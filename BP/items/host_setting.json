@@ -1,12 +1,14 @@
 {
-    "format_version": "1.16.100",
+    "format_version": "1.21.0",
     "minecraft:item": {
         "description": {
             "identifier": "item_id:setting"
         },
         "components": {
             "minecraft:icon": {
-                "texture": "icon_setting"
+                "textures": {
+                    "default": "icon_setting"
+                }
             }
         }
     }

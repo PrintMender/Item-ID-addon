@@ -1,6 +1,8 @@
 import { world, system } from "@minecraft/server"
 
-world.sendMessage(`§aアイテムIDアドオンが導入されています`)
+system.run(() => {
+    world.sendMessage(`§aアイテムIDアドオンが導入されています`)
+})
 
 system.runInterval(() => {
     world.getPlayers().forEach(player => {
